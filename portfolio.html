@@ -1,0 +1,221 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chethan V | Portfolio</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Chethan<span>.</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">HELLO, I'M</p>
+
+            <h1>Chethan <span>V</span></h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p class="hero-description">
+                Passionate about technology, programming and building
+                creative solutions to real-world problems.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/chethan0705"
+                   target="_blank">GitHub</a>
+
+                <a href="https://www.linkedin.com/in/chethan-v02/"
+                   target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- PROFILE PHOTO -->
+        <div class="hero-photo">
+            <img src="{% static 'images/profile.jpeg' %}"
+                 alt="Chethan V">
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+            <p>
+                I'm Chethan V, a third-year Computer Science and Engineering
+                student at Gopalan College of Engineering and Management.
+                I enjoy learning new technologies, developing applications
+                and solving problems through programming.
+            </p>
+
+            <p>
+                My interests include Python programming, web development,
+                software development and exploring new technologies.
+                I'm constantly working to improve my skills and build
+                projects that make a meaningful difference.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section" id="skills">
+
+        <div class="section-heading">
+            <p>WHAT I WORK WITH</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Programming and problem solving</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Interactive web development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web structure and development</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+
+        <div class="section-heading">
+            <p>WHAT I'VE BUILT</p>
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Smart Waste Management System</h3>
+
+                <p>
+                    A smart waste management solution designed to improve
+                    waste collection and management through technology.
+                    The project aims to make waste management more
+                    efficient and environmentally friendly.
+                </p>
+
+                <div class="project-tags">
+                    <span>Technology</span>
+                    <span>Smart System</span>
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Exam Allotment System</h3>
+
+                <p>
+                    A system designed to simplify the examination
+                    allotment process by organizing student and
+                    examination information efficiently.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Management System</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+
+        <div class="section-heading">
+            <p>LET'S CONNECT</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <p class="contact-description">
+            Feel free to reach out to me for collaborations,
+            opportunities or just to connect!
+        </p>
+
+        <div class="contact-details">
+
+            <a href="mailto:chethannavi252@gmail.com">
+                📧 chethannavi252@gmail.com
+            </a>
+
+            <a href="https://github.com/chethan0705" target="_blank">
+                💻 GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/chethan-v02/"
+               target="_blank">
+                🔗 LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Chethan V | Designed and Developed by Chethan</p>
+    </footer>
+
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
